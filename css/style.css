@@ -1,0 +1,161 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #222;
+    color: #fff;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    box-sizing: border-box;
+    z-index: 1000;
+    opacity: 0.5;
+    top: 0;
+}
+
+.top-image img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+section {
+    padding: 50px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.image-container {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-box img {
+    max-width: 48%; /* Adjust as needed */
+    box-sizing: border-box;
+    max-height: 200px;
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.welcome-box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.welcome-box img {
+    width: 100%;
+    height: auto;
+}
+    
+.text-box {
+    background-color: #646464; /* White background */
+    color: #adadad; /* Yellow/gold text color */
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 3px #222;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+.reviews-container {
+    position: relative;
+     margin-top: 20px;
+}
+    
+.reviews-container .text-box {
+    background-color: #646464; /* White background */
+    color: #242424; /* Yellow/gold text color */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+     margin: 0 auto;
+}
+    
+.reviews-container h2 {
+    font-size: 2em; /* Adjust as needed for size */
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px; /* Add space between heading and paragraph */
+    text-decoration: underline;
+}
+
+.reviews-container p {
+    color: #ffd700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image-center {
+    text-align: center;
+    margin-top: 20px;
+}
+    
+.image-center img {
+    width: 800px;
+    height: 400px;
+     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.reservation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reservation-button {
+    padding: 25px 45px;
+    font-size: 2em; /* Adjust as needed */
+    font-weight: bold;
+    background-color: #ffd700; /* Yellow/gold background */
+    color: #000; /* Black text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reservation-button:hover {
+    background-color: #e6b800; /* Darker yellow/gold on hover */
+}

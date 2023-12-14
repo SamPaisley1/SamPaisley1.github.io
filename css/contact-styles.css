@@ -1,0 +1,95 @@
+/* Contact page specific styles */
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #222;
+    color: #fff;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    box-sizing: border-box;
+    z-index: 1000;
+    opacity: 0.5;
+    top: 0;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust based on your design preference */
+    box-sizing: border-box;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%; /* Adjust the width of the contact section */
+}
+
+.logo-container {
+    width: 30%; /* Adjust the width of the logo container */
+    text-align: center;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    width: 60%; /* Adjust the width of the contact form */
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ffd700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
