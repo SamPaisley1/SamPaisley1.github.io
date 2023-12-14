@@ -1,8 +1,8 @@
-/* Menu page specific styles */
+/* menu-styles.css */
 
 body {
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; 
     background-color: #222;
     color: #fff;
 }

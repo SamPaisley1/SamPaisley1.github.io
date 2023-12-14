@@ -2,25 +2,25 @@
 
 body {
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #222;
+    font-family: 'Times New Roman', Times, serif; /* Font used for website */
+    background-color: #222; /* background color */
     color: #fff;
 }
 
 
 header {
-    position: fixed;
+    position: fixed; /* fixed header to follow user when they scroll*/
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* header color */
     padding: 15px;
     box-sizing: border-box;
     z-index: 1000;
-    opacity: 0.5;
+    opacity: 0.5; /* Opacity to not clash with details behind header*/
     top: 0;
 }
 
-.top-image img {
-    width: 100%;
+.top-image img { /* Main image*/
+    width: 100%; 
     height: auto;
 }
 
@@ -45,7 +45,7 @@ nav a:hover {
 }
 
 section {
-    padding: 50px 20px;
+    padding: 50px 20px; /* Padding for each image*/
     box-sizing: border-box;
     text-align: center;
 }
@@ -55,7 +55,7 @@ section img {
     height: auto;
 }
 
-footer {
+footer { /* footer displaying info */
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     bottom: 0;
@@ -63,32 +63,32 @@ footer {
     text-align: center;
 }
 
-.image-container {
+.image-container { /* Michelin star container */
     justify-content: space-between;
     margin-top: 20px;
 }
 
 .image-box img {
-    max-width: 48%; /* Adjust as needed */
+    max-width: 48%; 
     box-sizing: border-box;
     max-height: 200px;
     max-width: 200px;
     margin-right: 20px;
 }
 
-.welcome-box {
+.welcome-box { /* welcoming text*/
     text-align: center;
     margin-top: 50px;
 }
 
-.welcome-box img {
+.welcome-box img { /* image below welcomign text */
     width: 100%;
     height: auto;
 }
     
 .text-box {
-    background-color: #646464; /* White background */
-    color: #adadad; /* Yellow/gold text color */
+    background-color: #646464; 
+    color: #adadad; 
     font-weight: bold;
     padding: 20px;
     border-radius: 10px;
@@ -101,28 +101,28 @@ footer {
     font-size: 1.5rem;
 }
 
-.reviews-container {
+.reviews-container { /* customer reviews */
     position: relative;
      margin-top: 20px;
 }
     
-.reviews-container .text-box {
-    background-color: #646464; /* White background */
-    color: #242424; /* Yellow/gold text color */
+.reviews-container .text-box { /* text box for customer reviews */
+    background-color: #646464; 
+    color: #242424; 
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
      margin: 0 auto;
 }
     
-.reviews-container h2 {
-    font-size: 2em; /* Adjust as needed for size */
+.reviews-container h2 { /* properties of <h2> */
+    font-size: 2em; 
     font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 10px; /* Add space between heading and paragraph */
+    margin-bottom: 10px; 
     text-decoration: underline;
 }
 
-.reviews-container p {
+.reviews-container p { /* properties of <p> */
     color: #ffd700;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -139,23 +139,23 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.reservation {
+.reservation { /* reservation section */
     text-align: center;
     margin-top: 20px;
 }
 
-.reservation-button {
+.reservation-button { /* The fake reservation button */
     padding: 25px 45px;
-    font-size: 2em; /* Adjust as needed */
+    font-size: 2em; 
     font-weight: bold;
-    background-color: #ffd700; /* Yellow/gold background */
-    color: #000; /* Black text color */
+    background-color: #ffd700; 
+    color: #000; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.reservation-button:hover {
-    background-color: #e6b800; /* Darker yellow/gold on hover */
+.reservation-button:hover { /* Displays a darker shade of yellow when hovering over reservation button */
+    background-color: #e6b800; 
 }

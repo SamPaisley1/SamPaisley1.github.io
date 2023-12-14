@@ -1,4 +1,4 @@
-/* Contact page specific styles */
+/* Contact-styles.css */
 
 body {
     margin: 0;
@@ -42,7 +42,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Adjust based on your design preference */
+    height: 100vh; 
     box-sizing: border-box;
 }
 
@@ -50,11 +50,11 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 80%; /* Adjust the width of the contact section */
+    width: 80%; 
 }
 
 .logo-container {
-    width: 30%; /* Adjust the width of the logo container */
+    width: 30%; 
     text-align: center;
 }
 
@@ -64,7 +64,7 @@ main {
 }
 
 .contact-form {
-    width: 60%; /* Adjust the width of the contact form */
+    width: 60%; 
     text-align: center;
 }
 
